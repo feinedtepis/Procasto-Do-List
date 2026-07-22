@@ -1,0 +1,49 @@
+.topper {
+    height: 40%;
+
+    background:
+        linear-gradient(
+            90deg,
+            rgba(0,0,0,.7),
+            
+            rgba(0,0,0,.7)
+        ),
+        url("./pokemon.png");
+
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+
+    color: white;
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.extra {
+    background: linear-gradient(
+        150deg,
+        black 50%,
+        green 10%
+    );
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.mane {
+    flex:1;
+    overflow: auto;
+
+    background:
+        linear-gradient(
+            rgba(0,0,0,.5),
+            rgba(0,0,0,.5)
+        ),
+        repeating-linear-gradient(
+            90deg,
+            rgb(45,136,45) 0 10px,
+            rgb(2,55,2) 10px 20px
+        );
+}
