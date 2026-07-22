@@ -11,5 +11,5 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: "/Static-ToDo/",
+  base: "/Procasto-Do-List/",
 })
